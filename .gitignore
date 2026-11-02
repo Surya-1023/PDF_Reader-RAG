@@ -1,0 +1,33 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+**/venv/
+**/.venv/
+
+# ChromaDB
+pdf-rag-assistant/backend/chroma_db/
+pdf-rag-assistant/backend/chroma_test_db/
+
+# Node
+**/node_modules/
+**/dist/
+
+# Build and cache
+.cache/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
